@@ -1,0 +1,528 @@
+@media only screen and (min-width: 320px) and (max-width: 637px) {
+
+  .home-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 5em;
+  color: white;
+  background-color: rgb(21, 21, 21);
+  background: url('https://w.forfun.com/fetch/67/674d9f64c8a3c0110654ebdd1e037503.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  top: 0;
+  }
+
+  .home-wrapper {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+
+  .hero-container {
+    display: flex;
+    position: absolute;
+    height: 370px;
+    width: 300px;
+    bottom: 0;
+    z-index: 9;
+  }
+
+  .hero-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    position: absolute;
+    top: 120px;
+    z-index: 10;
+  }
+
+  .hero-description-container p {
+    font-size: 22px;
+  }
+
+  .hero-description-container h2 {
+    color: gold;
+  }
+
+  .dynamic-txts p {
+    text-decoration: none;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    animation: typing-animation 4s steps(19, end) 
+    infinite 
+    alternate, 
+    blinking-cursor 
+    0.5s infinite;
+  }
+  
+  @keyframes typing-animation {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+    60% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blinking-cursor {
+    0% {
+      border-color: transparent;
+    }
+    100% {
+      border-color: gold;
+    }
+  }
+
+  .home-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+  }
+
+  .get-resume-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    font-size: 10px;
+    width: 130px;
+    height: 50px;
+    margin-top: 40px; 
+    letter-spacing: 3px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.80);
+    border: 1px solid gray;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .get-resume-btn:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: rgba(255, 217, 0, 0.50);
+  }
+
+  .social-links-btn-container {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .social-links-btn-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .social-links-btn-container button:hover {
+    border: 1px solid gold;
+    color: gold;
+    background-color: black;
+  }
+
+  .rgb-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, gray, gold, black, wheat, gold);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+}
+
+@media only screen and (min-width: 637px) and (max-width: 1023px) {
+
+  .home-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 5em;
+    color: white;
+    background-color: rgb(21, 21, 21);
+    background: url('https://w.forfun.com/fetch/67/674d9f64c8a3c0110654ebdd1e037503.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    top: 0;
+  }
+
+  .home-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-container {
+    display: flex;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    bottom: 0;
+    right: 20px;
+    z-index: 9;
+  }
+
+  .hero-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .5rem;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    z-index: 10;
+  }
+
+  .hero-description-container p {
+    font-size: 30px;
+  }
+
+  .hero-description-container h2 {
+    font-size: 34px;
+    color: gold;
+  }
+
+    .dynamic-txts p {
+      text-decoration: none;
+      overflow: hidden;
+      border-right: .15em solid orange;
+      white-space: nowrap;
+      margin: 0;
+      padding: 0;
+      animation: typing-animation 4s steps(19, end) 
+      infinite 
+      alternate, 
+      blinking-cursor 
+      0.5s infinite;
+    }
+    
+    @keyframes typing-animation {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+      60% {
+        width: 100%;
+      }
+    }
+    
+    @keyframes blinking-cursor {
+      0% {
+        border-color: transparent;
+      }
+      100% {
+        border-color: gold;
+      }
+    }
+  
+    .home-footer-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      position: absolute;
+      bottom: 20px;
+      left: 30px;
+      z-index: 10;
+    }
+  
+    .get-resume-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .5em;
+      font-size: 10px;
+      width: 160px;
+      height: 50px;
+      margin-top: 40px; 
+      letter-spacing: 3px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.80);
+      border: 1px solid gray;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    
+    .get-resume-btn:hover {
+      color: black;
+      border: 1px solid black;
+      background-color: rgba(255, 217, 0, 0.50);
+    }
+  
+    .social-links-btn-container {
+      display: flex;
+      gap: 1em;
+    }
+    
+    .social-links-btn-container button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      width: 45px;
+      height: 45px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    
+    .social-links-btn-container button:hover {
+      border: 1px solid gold;
+      color: gold;
+      background-color: black;
+    }
+  
+    .rgb-bg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(90deg, gray, gold, black, wheat, gold);
+      background-size: 1600% 1600%;
+  
+      -webkit-animation: AnimationName 5s ease infinite;
+      -moz-animation: AnimationName 5s ease infinite;
+      animation: AnimationName 5s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 8000px) {
+
+  .home-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 5em;
+    color: white;
+    background-color: rgb(21, 21, 21);
+    background: url('https://w.forfun.com/fetch/67/674d9f64c8a3c0110654ebdd1e037503.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    top: 0;
+  }
+
+  .home-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-container {
+    display: flex;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    bottom: 0;
+    right: 20px;
+    z-index: 9;
+  }
+
+  .hero-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .5rem;
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    z-index: 10;
+  }
+
+  .hero-description-container p {
+    font-size: 35px;
+  }
+
+  .hero-description-container h2 {
+    font-size: 40px;
+    color: gold;
+  }
+
+    .dynamic-txts p {
+      text-decoration: none;
+      overflow: hidden;
+      border-right: .15em solid orange;
+      white-space: nowrap;
+      margin: 0;
+      padding: 0;
+      animation: typing-animation 4s steps(19, end) 
+      infinite 
+      alternate, 
+      blinking-cursor 
+      0.5s infinite;
+    }
+    
+    @keyframes typing-animation {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+      60% {
+        width: 100%;
+      }
+    }
+    
+    @keyframes blinking-cursor {
+      0% {
+        border-color: transparent;
+      }
+      100% {
+        border-color: gold;
+      }
+    }
+  
+    .home-footer-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      position: absolute;
+      bottom: 50px;
+      left: 60px;
+      z-index: 10;
+    }
+  
+    .get-resume-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .5em;
+      font-size: 12px;
+      width: 180px;
+      height: 50px;
+      margin-top: 40px; 
+      letter-spacing: 3px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.80);
+      border: 1px solid gray;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    
+    .get-resume-btn:hover {
+      color: black;
+      border: 1px solid black;
+      background-color: rgba(255, 217, 0, 0.50);
+    }
+  
+    .social-links-btn-container {
+      display: flex;
+      gap: 1em;
+    }
+    
+    .social-links-btn-container button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      width: 45px;
+      height: 45px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    
+    .social-links-btn-container button:hover {
+      border: 1px solid gold;
+      color: gold;
+      background-color: black;
+    }
+  
+    .rgb-bg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(90deg, gray, gold, black, wheat, gold);
+      background-size: 1600% 1600%;
+  
+      -webkit-animation: AnimationName 5s ease infinite;
+      -moz-animation: AnimationName 5s ease infinite;
+      animation: AnimationName 5s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+}

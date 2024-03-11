@@ -1,0 +1,31 @@
+.settings-container {
+  display: flex;
+  position: fixed;
+  top: 100px;
+  right: -110px;
+  gap: 1em;
+  width: 150px;
+  padding: 5px 6px;
+  border-radius: 50px;
+  border: 1px solid gold;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.settingsBtn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  background: transparent;
+  border: none;
+  color: gold;
+  animation: gear 2s infinite linear;
+}
+
+@keyframes gear {
+  100% {
+    transform: rotate(360deg);
+  }
+  
+}
