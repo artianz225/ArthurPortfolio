@@ -141,6 +141,7 @@
     width: 35px;
     height: 35px;
     border: none;
+    color: black;
     border-radius: 50px;
     cursor: pointer;
   }
@@ -319,6 +320,7 @@
       height: 45px;
       border: none;
       border-radius: 50px;
+      color: black;
       cursor: pointer;
     }
     
@@ -332,8 +334,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 48px;
-      height: 48px;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
       background: linear-gradient(90deg, gray, gold, black, wheat, gold);
       background-size: 1600% 1600%;
@@ -496,6 +498,7 @@
       height: 45px;
       border: none;
       border-radius: 50px;
+      color: black;
       cursor: pointer;
     }
     

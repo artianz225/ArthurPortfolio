@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Nav.css'
 import MobileNav from './MobileNav/MobileNav';
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -7,6 +7,23 @@ import { TfiClose } from "react-icons/tfi";
 import myLogo from '../Assets/ArtLogoWebDeveloper.png'
 
 const Nav = () => {
+  
+  useEffect(() => {
+    // Check if the Screen Orientation API is supported
+    if (window.screen.orientation && window.screen.orientation.lock) {
+      // Lock the screen orientation to portrait mode
+      window.screen.orientation.lock('portrait').catch(error => {
+        console.error('Failed to lock screen orientation:', error);
+      });
+    }
+    
+    // Cleanup function to unlock orientation when the component unmounts
+    return () => {
+      if (window.screen.orientation && window.screen.orientation.unlock) {
+        window.screen.orientation.unlock();
+      }
+    };
+  }, []); // Empty dependency array to run only once when the component mounts
 
   const [openMenu, setOpenMenu] = useState(false);
 
