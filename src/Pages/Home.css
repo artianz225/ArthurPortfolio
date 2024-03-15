@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   gap: 5em;
   color: white;
   background-color: rgb(21, 21, 21);
@@ -182,7 +182,7 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     gap: 5em;
     color: white;
     background-color: rgb(21, 21, 21);
@@ -360,7 +360,7 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     gap: 5em;
     color: white;
     background-color: rgb(21, 21, 21);
