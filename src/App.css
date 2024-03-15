@@ -6,3 +6,7 @@
   scroll-behavior: smooth;
  }
 
+ body.active-modal {
+  overflow-y: hidden;
+ }
+
