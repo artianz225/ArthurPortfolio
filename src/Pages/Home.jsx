@@ -25,6 +25,8 @@ function Home() {
           <p>I'm a</p>
           <div className="dynamic-txts">
             <p>Frontend Developer</p>
+            <p>UI and UX Desinger</p>
+            <p>Photoshop Editor</p>
           </div>
         </div>
 

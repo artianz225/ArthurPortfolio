@@ -19,7 +19,7 @@
   }
 
   .home-wrapper {
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,9 +46,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: .5rem;
     position: absolute;
-    top: 120px;
+    top: 90px;
     z-index: 10;
   }
 
@@ -60,40 +59,50 @@
     color: gold;
   }
 
-  .dynamic-txts p {
-    text-decoration: none;
-    overflow: hidden;
-    border-right: .15em solid orange;
+  .dynamic-txts {
+    height: 28px;
+    line-height: 28px;
+    border-right: 3px solid white;
     white-space: nowrap;
-    margin: 0;
-    padding: 0;
-    animation: typing-animation 4s steps(19, end) 
-    infinite 
-    alternate, 
-    blinking-cursor 
-    0.5s infinite;
+    overflow: hidden;
+    animation: typing 3s steps(16, end) infinite alternate, blinking .5s infinite;
   }
   
-  @keyframes typing-animation {
+  @keyframes typing {
     from {
       width: 0;
-    }
+    }  
     to {
-      width: 100%;
+      width: 78%;
     }
-    60% {
-      width: 100%;
+    50% {
+      width: 78%;
     }
   }
   
-  @keyframes blinking-cursor {
+  @keyframes blinking {
     0% {
       border-color: transparent;
     }
     100% {
-      border-color: gold;
+      border-color: white;
     }
   }
+  
+  .dynamic-txts p {
+    font-size: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    top: 0;
+    animation: slideUp 18s steps(3) infinite;
+  }
+  
+  @keyframes slideUp {
+    100% {
+      top: -84px;
+    }
+  } 
 
   .home-footer-container {
     display: flex;
@@ -237,40 +246,50 @@
     color: gold;
   }
 
-    .dynamic-txts p {
-      text-decoration: none;
-      overflow: hidden;
-      border-right: .15em solid orange;
-      white-space: nowrap;
-      margin: 0;
-      padding: 0;
-      animation: typing-animation 4s steps(19, end) 
-      infinite 
-      alternate, 
-      blinking-cursor 
-      0.5s infinite;
+  .dynamic-txts {
+    height: 35px;
+    line-height: 35px;
+    border-right: 3px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(16, end) infinite alternate, blinking .5s infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }  
+    to {
+      width: 69%;
     }
-    
-    @keyframes typing-animation {
-      from {
-        width: 0;
-      }
-      to {
-        width: 100%;
-      }
-      60% {
-        width: 100%;
-      }
+    50% {
+      width: 69%;
     }
-    
-    @keyframes blinking-cursor {
-      0% {
-        border-color: transparent;
-      }
-      100% {
-        border-color: gold;
-      }
+  }
+  
+  @keyframes blinking {
+    0% {
+      border-color: transparent;
     }
+    100% {
+      border-color: white;
+    }
+  }
+  
+  .dynamic-txts p {
+    font-size: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    top: 0;
+    animation: slideUp 18s steps(3) infinite;
+  }
+  
+  @keyframes slideUp {
+    100% {
+      top: -105px;
+    }
+  } 
   
     .home-footer-container {
       display: flex;
@@ -415,40 +434,50 @@
     color: gold;
   }
 
-    .dynamic-txts p {
-      text-decoration: none;
-      overflow: hidden;
-      border-right: .15em solid orange;
-      white-space: nowrap;
-      margin: 0;
-      padding: 0;
-      animation: typing-animation 4s steps(19, end) 
-      infinite 
-      alternate, 
-      blinking-cursor 
-      0.5s infinite;
+  .dynamic-txts {
+    height: 42px;
+    line-height: 42px;
+    border-right: 3px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(16, end) infinite alternate, blinking .5s infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }  
+    to {
+      width: 70%;
     }
-    
-    @keyframes typing-animation {
-      from {
-        width: 0;
-      }
-      to {
-        width: 100%;
-      }
-      60% {
-        width: 100%;
-      }
+    50% {
+      width: 70%;
     }
-    
-    @keyframes blinking-cursor {
-      0% {
-        border-color: transparent;
-      }
-      100% {
-        border-color: gold;
-      }
+  }
+  
+  @keyframes blinking {
+    0% {
+      border-color: transparent;
     }
+    100% {
+      border-color: white;
+    }
+  }
+  
+  .dynamic-txts p {
+    font-size: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    top: 0;
+    animation: slideUp 18s steps(3) infinite;
+  }
+  
+  @keyframes slideUp {
+    100% {
+      top: -126px;
+    }
+  } 
   
     .home-footer-container {
       display: flex;
