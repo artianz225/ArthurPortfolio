@@ -6,7 +6,18 @@
   scroll-behavior: smooth;
  }
 
+ body {
+  background: url('https://w.forfun.com/fetch/67/674d9f64c8a3c0110654ebdd1e037503.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+ }
+
  body.active-modal {
   overflow-y: hidden;
  }
+
+ 
+
 

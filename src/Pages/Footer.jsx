@@ -4,6 +4,7 @@ import { FaFacebookF, FaGithub, FaLinkedinIn, FaSkype, FaRegCopyright } from "re
 
 function Footer() {
   return (
+    <div className="main-footer">
     <div className="footer-container">
         <h4>Arthur John Philipps Epiz</h4>
           <div className="footer-social-links-btn-container">
@@ -15,6 +16,7 @@ function Footer() {
           <div className="copyright-container">
           <p><FaRegCopyright /> Copyright 2024 || Art Web Developer. All Right Reserve </p>
           </div>
+      </div>
       </div>
   )
 }

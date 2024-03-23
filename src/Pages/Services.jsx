@@ -15,6 +15,7 @@ function Services() {
 
 
   return (
+          <div className="service-main-container">
           <div className="services-container" id='services'>
 
           <div data-aos="fade-down" className="services-page-tittle">
@@ -70,6 +71,7 @@ function Services() {
                 <p>Is it really open source if it's not made with love?</p>
               </div>
           </div>
+        </div>
         </div>
         </div>
   )

@@ -6,7 +6,7 @@
   align-items: center;  
   width: 100%;
   height: auto;
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.6);
   box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
   -webkit-box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
   -moz-box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;  
@@ -76,7 +76,7 @@ flex-direction: column;
 align-items: center;  
 width: 100%;
 height: 100%;
-background-color: whitesmoke;
+background-color: rgba(245, 245, 245, 0.6);
 box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
 -webkit-box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
 -moz-box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;  
@@ -141,14 +141,21 @@ text-align: center;
 
 @media only screen and (min-width: 1023px) and (max-width: 8000px) {
 
+.service-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .services-container {
 display: flex;
 flex-direction: column;
 align-items: center;  
 width: 100%;
+max-width: 1400px;
 height: 100%;
 padding: 10px 0;
-background-color: whitesmoke;
+background-color: rgba(245, 245, 245, 0.6);
 box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
 -webkit-box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
 -moz-box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;  
@@ -169,6 +176,7 @@ box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
 .services-contents-grid-container {
   display: flex;
   justify-content: center;
+  gap: 2em;
   width: 100%;
   margin: 30px 0;
 }
@@ -184,11 +192,15 @@ width: 250px;
 }
 
 .serives-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 font-size: 50px;
+height: 75px;
 }
 
 .heart-animation {
-color: red;
+  margin-top: -20px;
 animation: change-color .3s infinite;
 }
 
