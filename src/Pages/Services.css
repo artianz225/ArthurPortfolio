@@ -153,7 +153,6 @@ flex-direction: column;
 align-items: center;  
 width: 100%;
 max-width: 1400px;
-height: 100%;
 padding: 10px 0;
 background-color: rgba(245, 245, 245, 0.6);
 box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
@@ -191,7 +190,7 @@ gap: 1em;
 width: 250px;
 }
 
-.serives-icon {
+.services-icon {
   display: flex;
   justify-content: center;
   align-items: center;

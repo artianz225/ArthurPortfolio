@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import './Portfolio.css'
-import calculatorImg from '../Assets/mycalculator.png'
-import laShopeeImg from '../Assets/myecommerce.png'
+import rpsgameImg from '../Assets/myrpsgame.png'
+import laShopeeImg from '../Assets/myecommerce2.png'
 import ducatiImg from '../Assets/myducati.jpg'
 import inventoryImg from '../Assets/myinventory.jpg'
 import weatherAppImg from '../Assets/myweatherapp.png'
-import countryFlagsImg from '../Assets/myflags.png'
+import countryFlagsImg from '../Assets/myflags2.jpeg'
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { IoMdCloseCircle } from "react-icons/io";
 import Aos from 'aos';
@@ -21,7 +21,7 @@ function Portfolio() {
       image: inventoryImg,
       projectLink: `https://inventory-system-data.onrender.com`,
       details: "More Details",
-        aboutProject: "The AA inventory system is built using React JS, vanilla CSS, and ES6 syntax functions. This is a comprehensive inventory management application where users can register, upload photos, and login to the system. Additionally, users can add, edit, delete, and view individual data entries. The website utilizes two databases: the first is a MongoDB database responsible for storing textual information, and the second is a Firebase database responsible for uploading images.",
+      aboutProject: "The AA inventory system is built using React JS, vanilla CSS, and ES6 syntax functions. This is a comprehensive inventory management application where users can register, upload photos, and login to the system. Additionally, users can add, edit, delete, and view individual data entries. The website utilizes two databases: the first is a MongoDB database responsible for storing textual information, and the second is a Firebase database responsible for uploading images.",
       isFlipped: false
     },
     {
@@ -32,7 +32,7 @@ function Portfolio() {
       projectLink: `https://artianz225.github.io/MP2-E-Commerce/`,
       details: "More Details",
       aboutProject: "The Ecommerce Lashopee website is constructed solely using Vite, CSS, and JavaScript. I utilized a dummy JSON API for displaying various product details such as images, brands, models, ratings, descriptions, and more. Additionally, users can search for specific products by typing the brand name into the search box. Furthermore, users have the ability to add or remove products from the cart. Once an item is in the cart, users can also adjust the quantity within the cart section.",
-    isFlipped: false
+      isFlipped: false
     },
     {
       id: 3,
@@ -42,17 +42,17 @@ function Portfolio() {
       projectLink: `https://artianz225.github.io/WD82P/11-Responsive_Design/index.html`,
       details: "More Details",
       aboutProject: "For this project I replicate the Ducati Philippine website using only html and CSS, this is a responsive website that you can view weither your using phone, ipad or tablet and desktop honestlu this is not prettier that much but I can re-design this using react JS.",
-    isFlipped: false
+      isFlipped: false
     },
     {
       id: 4,
-      tittle: "Calculator",
+      tittle: "Rock Paper Scissor",
       languages: ["HTML", "CSS", "JavaScript"],
-      image: calculatorImg,
-      projectLink: `https://artianz225.github.io/reactCalculator/`,
+      image: rpsgameImg,
+      projectLink: `https://artianz225.github.io/WD82P/RPS_Practice/index.html`,
       details: "More Details",
-      aboutProject: "I will update this soon",
-    isFlipped: false
+      aboutProject: "This Game is made of HTML, CSS and JavaScript, whice you can play againt bot ",
+      isFlipped: false
     },
     {
       id: 5,
@@ -62,7 +62,7 @@ function Portfolio() {
       projectLink: `https://artianz225.github.io/reactCalculator/`,
       details: "More Details",
       aboutProject: "I will update this soon",
-    isFlipped: false
+      isFlipped: false
     },
     {
       id: 6,
@@ -72,7 +72,7 @@ function Portfolio() {
       projectLink: `https://artianz225.github.io/reactCalculator/`,
       details: "More Details ",
       aboutProject: "I will update this soon",
-    isFlipped: false
+      isFlipped: false
     },
   ]);
 

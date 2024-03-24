@@ -4,6 +4,7 @@ import { FaMobileScreenButton, FaLocationDot } from "react-icons/fa6";
 import { IoIosSend, IoMdSend } from "react-icons/io"; 
 import { MdEmail } from "react-icons/md";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { BiMailSend } from "react-icons/bi";
 
 import Aos from 'aos';
 import 'aos/dist/aos.css'
@@ -66,7 +67,7 @@ function Contact() {
                 <input data-aos="fade-up" type="text" placeholder='Name' required/>
                 <input data-aos="fade-up" type="email" placeholder='Email' required/>
                 <textarea data-aos="fade-up" name="message" placeholder='Message' id="" cols="30" rows="10" required></textarea>
-                <button data-aos="fade-up" className='send-msg-btn'>Send Message <span className='loading'><IoMdSend /></span></button>
+                <button data-aos="" className='send-msg-btn'>Send Message<BiMailSend /></button>
               </form>
             </div>
 

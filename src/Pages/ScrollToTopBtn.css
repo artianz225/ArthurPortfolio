@@ -25,3 +25,23 @@
 .scroll-to-top button:hover{
   border: 1px solid gold;
 }
+
+.scroll-watcher {
+ height: 2px;
+ position: fixed;
+ top: 0;
+ background-color: gold;
+ width: 100%;
+ scale: 0 1;
+ transform-origin: left;
+ z-index: 999;
+
+ animation: scroll-watcher linear;
+ animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher {
+ to {
+   scale: 1 1;
+ }
+}

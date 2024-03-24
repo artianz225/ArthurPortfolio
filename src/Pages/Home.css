@@ -539,3 +539,31 @@
       100%{background-position:0% 50%}
   }
 }
+
+@media (max-height: 400px) {
+
+  .hero-container {
+    height: 240px;
+    width: 210px;
+    right: 10px;
+  }
+
+  .hero-description-container {
+    align-items: start;
+    left: 25px;
+  }
+
+  .hero-description-container p {
+    font-size: 20px;
+  }
+
+  .home-footer-container {  
+    flex-direction: row-reverse;
+    left: 25px;
+    bottom: 10px;
+  }
+
+  .get-resume-btn {
+    margin-top: 0px;
+  }
+}

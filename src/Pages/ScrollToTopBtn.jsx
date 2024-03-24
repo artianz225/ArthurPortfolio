@@ -34,6 +34,10 @@ function ScrollToTopBtn() {
             <button><FaArrowUp /></button>
           </div>
         )}
+        
+
+          <div className="scroll-watcher">
+          </div>
     </div>
   )
 }

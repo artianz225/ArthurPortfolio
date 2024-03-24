@@ -50,3 +50,14 @@
   width: 40vw;
 }
 }
+
+@media (max-height: 400px) {
+
+  .mobile-menu-container {
+    padding: 1rem;
+  }
+
+  .mobile-menu ul {
+    gap: .6rem;
+  }
+}
