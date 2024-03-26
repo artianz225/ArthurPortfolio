@@ -1,17 +1,17 @@
 @media only screen and (min-width: 320px) and (max-width: 637px) {
   
   .services-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;  
-  width: 100%;
-  height: auto;
-  background-color: rgba(245, 245, 245, 0.6);
-  box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
-  -webkit-box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
-  -moz-box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;  
-  -webkit-box-shadow: 0px -6px 50px 0px rgba(255,215,0,0.75) inset;
-  -moz-box-shadow: 0px -6px 10px 10px rgba(255,215,0,0.75) inset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    width: 100%;
+    height: auto;
+    background-color: rgba(245, 245, 245, 0.6);
+    box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
+    -moz-box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;  
+    -webkit-box-shadow: 0px -6px 50px 0px rgba(255,215,0,0.75) inset;
+    -moz-box-shadow: 0px -6px 10px 10px rgba(255,215,0,0.75) inset;
   }
 
   .services-page-tittle {
@@ -48,7 +48,7 @@
   width: 300px;
 }
 
-.serives-icon {
+.services-icon {
   font-size: 50px;
 }
 
@@ -119,7 +119,7 @@ gap: 1em;
 width: 300px;
 }
 
-.serives-icon {
+.services-icon {
 font-size: 50px;
 }
 
@@ -181,31 +181,30 @@ box-shadow: 0px 0px 50px 10px rgba(255,215,0,0.75) inset;
 }
 
 .services-cards-container {
-display: flex;  
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 20px 20px;
-gap: 1em;
-width: 250px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  gap: 1em;
+  width: 250px;
 }
 
 .services-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-font-size: 50px;
-height: 75px;
+  font-size: 50px;
+  height: 75px;
 }
 
 .heart-animation {
-  margin-top: -20px;
-animation: change-color .3s infinite;
+  animation: change-color .3s infinite;
 }
 
 @keyframes change-color {
-from {color: red;}
-to {color: gold;}
+  from {color: red;}
+  to {color: gold;}
 }
 
 .services-description {

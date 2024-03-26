@@ -25,8 +25,8 @@
   .hero-container {
     display: flex;
     position: absolute;
-    height: 370px;
-    width: 300px;
+    height: 300px; /* i will set this into 370px when I have a new selfie picture*/
+    width: 300px; 
     bottom: 0;
     z-index: 9;
   }
@@ -45,8 +45,47 @@
     z-index: 10;
   }
 
+  .hero-container p {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .hero-container span {
+    display: flex;
+    font-size: 50px;
+    bottom: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .myrotation {
+    display: inline-flex;
+    justify-self: center;
+    align-self: center;
+    animation: rotate 1s infinite linear;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
   .hero-description-container p {
     font-size: 22px;
+  }
+
+  .john-rotation {
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 1000;
+    animation: rotate 1s infinite linear;
   }
 
   .hero-description-container h2 {
@@ -202,7 +241,7 @@
   .hero-container {
     display: flex;
     position: absolute;
-    height: 500px;
+    height: 400px; /* i will set this into 450px when I have a new selfie picture*/
     width: 400px;
     bottom: 0;
     right: 20px;
@@ -225,8 +264,45 @@
     z-index: 10;
   }
 
+  .hero-container p {
+    font-size: 14px;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .hero-container span {
+    display: flex;
+    font-size: 50px;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .myrotation {
+    display: inline-flex;
+    justify-self: center;
+    align-self: center;
+    animation: rotate 1s infinite linear;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
   .hero-description-container p {
     font-size: 30px;
+  }
+
+  .john-rotation {
+    display: inline-flex;
+    font-size: 21px;
+    font-weight: 1000;
+    animation: rotate 1s infinite linear;
   }
 
   .hero-description-container h2 {
@@ -383,11 +459,41 @@
   .hero-container {
     display: flex;
     position: absolute;
-    height: 500px;
-    width: 400px;
+    height: 500px; 
+    width: 500px; /* i will set this into 400px when I have a new selfie picture*/
     bottom: 0;
     right: 20px;
     z-index: 9;
+  }
+
+  .hero-container p {
+    font-size: 17px;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .hero-container span {
+    display: flex;
+    font-size: 50px;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .myrotation {
+    display: inline-flex;
+    justify-self: center;
+    align-self: center;
+    animation: rotate 1s infinite linear;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   .hero-container img{
@@ -406,6 +512,13 @@
     z-index: 10;
   }
 
+  .john-rotation {
+    display: inline-flex;
+    font-size: 23.5px;
+    font-weight: 1000;
+    animation: rotate 1s infinite linear;
+  }
+
   .hero-description-container p {
     font-size: 35px;
   }
@@ -421,6 +534,7 @@
     border-right: 3px solid white;
     white-space: nowrap;
     overflow: hidden;
+    color: white;
     animation: typing 3s steps(16, end) infinite alternate, blinking .5s infinite;
   }
   

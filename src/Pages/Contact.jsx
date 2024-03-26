@@ -56,7 +56,7 @@ function Contact() {
                   </div>
                   <div className="icon-details">
                     <p>Contact #:</p>
-                    <p>(+63) 931-121-8228</p>
+                    <p>(+63)931 - 121 - 8228</p>
                   </div>
                  </div>
                 </div>

@@ -10,10 +10,10 @@ import 'aos/dist/aos.css'
 function Services() {
 
   const [servicesDetails, setServicesDetails] = useState([
-    { id: 1, icon: <IoDiamondOutline/>, tittle: 'Sturdy Themes', paragraph: 'Themes are updated regularly to keep them bug free!' },
-    { id: 2, icon: <BsLaptop />, tittle: 'Up to Date', paragraph: 'Dependencies are kept current to keep things fresh.' },
+    { id: 1, icon: <IoDiamondOutline/>, tittle: 'Sturdy Themes', paragraph: 'Themes are updated regularly to keep them bug free!', class: 'horizontal-rotation' },
+    { id: 2, icon: <BsLaptop />, tittle: 'Up to Date', paragraph: 'Dependencies are kept current to keep things fresh and no errors.' },
     { id: 3, icon: <FaMobileScreenButton />, tittle: 'Redesigned', paragraph: 'You can use this design as is, or you can make changes!' },
-    { id: 4, icon: <FaRegHeart />, tittle: 'Made with Love', paragraph: 'Is it really open source if it`s not made with love?'},
+    { id: 4, icon: <FaRegHeart />, tittle: 'Made with Love', paragraph: 'Love and passionate to create a modernized website', class: 'heart-animation'},
   ]);
 
   useEffect(() => {
@@ -29,9 +29,9 @@ function Services() {
           </div>
           <div className="services-contents-grid-container">
             {servicesDetails.map((details) => (
-              <div className="services-cards-container">
+              <div key={details.id} className="services-cards-container">
                 <div className="services-icon">
-                  <div className="horizontal-rotation">{details.icon}</div>
+                  <div className={details.class}>{details.icon}</div>
                 </div>
                 <div data-aos="fade-up" className="services-tittle">
                   <h3>{details.tittle}</h3>
