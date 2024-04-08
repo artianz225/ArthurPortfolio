@@ -49,7 +49,7 @@ function Portfolio() {
       tittle: "Rock Paper Scissor",
       languages: ["HTML", "CSS", "JavaScript"],
       image: rpsgameImg,
-      projectLink: `https://artianz225.github.io/WD82P/RPS_Practice/index.html`,
+      projectLink: `hhttps://artianz225.github.io/RockPaperScissorReack.JS/`,
       details: "More Details",
       aboutProject: "This Game is made of HTML, CSS and JavaScript, whice you can play againt bot ",
       isFlipped: false
