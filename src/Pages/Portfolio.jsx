@@ -17,7 +17,7 @@ function Portfolio() {
     {
       id: 1,
       tittle: "Inventory System",
-      languages: ["React JS", "CSS", "JavaScript"],
+      languages: ["React", "CSS", "JavaScript"],
       image: inventoryImg,
       projectLink: `https://inventory-system-data.onrender.com`,
       details: "More Details",
@@ -47,11 +47,11 @@ function Portfolio() {
     {
       id: 4,
       tittle: "Rock Paper Scissor",
-      languages: ["HTML", "CSS", "JavaScript"],
+      languages: ["React", "CSS", "JavaScript"],
       image: rpsgameImg,
       projectLink: `https://artianz225.github.io/RockPaperScissorReack.JS/`,
       details: "More Details",
-      aboutProject: "This Game is made of HTML, CSS and JavaScript, whice you can play againt bot ",
+      aboutProject: "Personally I created the game using React, CSS, and JavaScript, which allows players to play the classic rock, paper, and scissors game against the computer. Currently, the game does not have a score limit, so players can continue playing as long as they want. However, but I will update the game soon to allow players to set how many rounds they want to play. Additionally, I want to add more effects to the game, such as emoticons that will pop up when players win or lose rounds, enhancing the overall gaming experience and making it more engaging for users. These updates will likely improve the game's functionality and make it more enjoyable for players by adding customizable options and visual feedback.",
       isFlipped: false
     },
     {
