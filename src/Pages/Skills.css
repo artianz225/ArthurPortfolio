@@ -64,10 +64,95 @@
   }
 
   .skill-icon {
+    position: relative;
     display: flex;
     flex-direction: column;
     font-size: 60px;
     color: white;
+  }
+
+  .skill-icon span {
+    font-size: 9px;
+    color: gold;
+    margin-bottom: -1.5px;
+  }
+
+  .range-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .range-container {
+    display: flex;  
+    align-items: center;
+    width: 90px;
+    height: 7px;
+    background-color: black;
+    border: 1px solid gold;
+  }
+
+  .range-html {
+    width: 85%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-css {
+    width: 90%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-javascript {
+    width: 76%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-react {
+    width: 80%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-mongodb {
+    width: 60%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-php {
+    width: 40%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-bootstrap {
+    width: 65%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-photoshop {
+    width: 75%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-microsoft {
+    width: 85%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
   }
 
   .icon-name {
@@ -171,17 +256,15 @@
     color: gold;
   }
 
-  .workflow-bullets {
+  .workflow-list li {
     display: flex;
-    flex-direction: column;
-    gap: 1em;
-    margin-top: 25px;
-  }
-  
-  .workflow-bullets p {
-    padding: 10px 25px;
-    border-radius: 5px;
-    background-color: rgba(128, 128, 128, 0.5);
+    text-decoration: none;
+    padding: 1px 5px;
+    margin-top: 5px;
+    font-size: 14.5px;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -251,11 +334,96 @@
     gap: 2em 6em;
   }
 
+  .range-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
   .skill-icon {
+    position: relative;
     display: flex;
     flex-direction: column;
     font-size: 60px;
     color: white;
+  }
+
+  .skill-icon span {
+    font-size: 9px;
+    color: gold;
+    margin-bottom: -1.5px;
+  }
+
+  .range-container {
+    display: flex;  
+    align-items: center;
+    width: 100px;
+    height: 7px;
+    background-color: black;
+    border: 1px solid gold;
+  }
+
+  .range-html {
+    width: 85%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-css {
+    width: 90%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-javascript {
+    width: 76%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-react {
+    width: 80%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-mongodb {
+    width: 60%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-php {
+    width: 40%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-bootstrap {
+    width: 65%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-photoshop {
+    width: 75%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-microsoft {
+    width: 85%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
   }
 
   .icon-name {
@@ -358,20 +526,15 @@
     color: gold;
   }
 
-  .workflow-bullets {
+  .workflow-list li {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-    margin-top: 25px;
-  }
-  
-  .workflow-bullets p {
-    padding: 10px 25px;
-    border-radius: 5px;
-    width: 500px;
-    background-color: rgba(128, 128, 128, 0.5);
+    text-decoration: none;
+    padding: 1px 5px;
+    margin-top: 5px;
+    font-size: 14.5px;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }  
 
@@ -447,10 +610,95 @@
   }
 
   .skill-icon {
+    position: relative;
     display: flex;
     flex-direction: column;
     font-size: 60px;
     color: white;
+  }
+
+  .skill-icon span {
+    font-size: 9px;
+    color: gold;
+    margin-bottom: -1.5px;
+  }
+
+  .range-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .range-container {
+    display: flex;  
+    align-items: center;
+    width: 85px;
+    height: 7px;
+    background-color: black;
+    border: 1px solid gold;
+  }
+
+  .range-html {
+    width: 85%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-css {
+    width: 90%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-javascript {
+    width: 76%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-react {
+    width: 80%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-mongodb {
+    width: 60%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-php {
+    width: 40%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-bootstrap {
+    width: 65%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-photoshop {
+    width: 75%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
+  }
+
+  .range-microsoft {
+    width: 85%;
+    height: 6px;
+    background-color: gold;
+    border: 1px solid gold;
   }
 
   .icon-name {
@@ -552,15 +800,14 @@
 
   }
 
-  .workflow-bullets {
+  .workflow-list li {
     display: flex;
-    flex-direction: column;
-    gap: 2em;
-  }
-  
-  .workflow-bullets p {
-    padding: 10px 25px;
+    text-decoration: none;
+    padding: 1px 5px;
+    margin-top: 5px;
+    font-size: 14.5px;
+    border: 1px solid wheat;
     border-radius: 3px;
-    background-color: rgba(128, 128, 128, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }

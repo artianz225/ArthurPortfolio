@@ -26,24 +26,32 @@ function Skills() {
             <div className='skills-icons-and-header-container'> 
             <h3 data-aos="fade-down" data-aos-duration="1000" >Programming Languages and Tools</h3>
             <div className="skills-cards-container">
-              <div data-aos="fade-up" className="skill-icon html"><FaHtml5 /><p className='icon-name'>HTML</p></div>
-              <div data-aos="fade-up" className="skill-icon css"><FaCss3Alt /><p className='icon-name'>CSS</p></div>
-              <div data-aos="fade-up" className="skill-icon javaScript"><IoLogoJavascript /><p className='icon-name'>JavaScript</p></div>
-              <div data-aos="fade-up" className="skill-icon react"><div className='rotate-left-to-right'><FaReact /></div><p className='icon-name'>React</p></div>
-              <div data-aos="fade-up" className="skill-icon mongoDb"><SiMongodb /><p className='icon-name'>mongoDB</p></div>
-              <div data-aos="fade-up" className="skill-icon php"><FaPhp /><p className='icon-name'>PHP</p></div>
-              <div data-aos="fade-up" className="skill-icon bootstrap"><FaBootstrap /><p className='icon-name'>Bootstrp</p></div>
-              <div data-aos="fade-up" className="skill-icon photoShop"><SiAdobephotoshop /><p className='icon-name'>Photoshop</p></div>
-              <div data-aos="fade-up" className="skill-icon microSoft"><FaMicrosoft  /><p className='icon-name'>Microsoft</p></div>
+              <div data-aos="fade-up" className="skill-icon html"><FaHtml5 /><p className='icon-name'>HTML</p><div className="range-wrapper"><div className='range-container'><div className='range-html'></div></div><span>85%</span></div></div>
+              <div data-aos="fade-up" className="skill-icon css"><FaCss3Alt /><p className='icon-name'>CSS</p><div className="range-wrapper"><div className='range-container'><div className='range-css'></div></div><span>90%</span></div></div>
+              <div data-aos="fade-up" className="skill-icon javaScript"><IoLogoJavascript /><p className='icon-name'>JavaScript</p><div className="range-wrapper"><div className='range-container'><div className='range-javascript'></div></div><span>76%</span></div></div>
+              <div data-aos="fade-up" className="skill-icon react"><div className='rotate-left-to-right'><FaReact /></div><p className='icon-name'>React</p><div className="range-wrapper"><div className='range-container'><div className='range-react'></div></div><span>80%</span></div></div>
+              <div data-aos="fade-up" className="skill-icon mongoDb"><SiMongodb /><p className='icon-name'>mongoDB</p><div className="range-wrapper"><div className='range-container'><div className='range-mongodb'></div></div><span>60%</span></div></div>
+              <div data-aos="fade-up" className="skill-icon php"><FaPhp /><p className='icon-name'>PHP</p><div className="range-wrapper"><div className='range-container'><div className='range-php'></div></div><span>40%</span></div></div>
+              <div data-aos="fade-up" className="skill-icon bootstrap"><FaBootstrap /><p className='icon-name'>Bootstrp</p><div className="range-wrapper"><div className='range-container'><div className='range-bootstrap'></div></div><span>65%</span></div></div>
+              <div data-aos="fade-up" className="skill-icon photoShop"><SiAdobephotoshop /><p className='icon-name'>Photoshop</p><div className="range-wrapper"><div className='range-container'><div className='range-photoshop'></div></div><span>75%</span></div></div>
+              <div data-aos="fade-up" className="skill-icon microSoft"><FaMicrosoft  /><p className='icon-name'>Microsoft</p><div className="range-wrapper"><div className='range-container'><div className='range-microsoft'></div></div><span>85%</span></div></div>
             </div>
             </div>
               <div className="work-flow-container">
               <h3 data-aos="fade-down" >Work Flow</h3>
               <div className="workflow-bullets">
-                <p data-aos="fade-up" >Mobile-First, Responsive Design</p>
-                <p data-aos="fade-up" >Cross Browser Testing & Debugging</p>
-                <p data-aos="fade-up" >Cross Functional Teams</p>
-                <p data-aos="fade-up" >Agile Development & Scrum</p>
+                <ul className='workflow-list'>
+                  <li data-aos="fade-up">Project Setup</li>
+                  <li data-aos="fade-up">Component Design</li>
+                  <li data-aos="fade-up">State Management</li>
+                  <li data-aos="fade-up">UI Development</li>
+                  <li data-aos="fade-up">Component Interactivity</li>
+                  <li data-aos="fade-up">Data Fetching</li>
+                  <li data-aos="fade-up">Testing</li>
+                  <li data-aos="fade-up">Optimization and Performance</li>
+                  <li data-aos="fade-up">Integration and Deployment</li>
+                  <li data-aos="fade-up">Monitoring and Maintenance</li>
+                </ul>
                 </div>
               </div>
             </div>
