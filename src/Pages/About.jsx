@@ -24,7 +24,9 @@ function About() {
 
       <div className="grid-container">
           <div data-aos="fade-up" className="picture">
+            <div className="box">
            <img src={leeMinHo} alt="" />
+           </div>
           </div>
         <div data-aos="fade-left" className="position">
         <h3 className='about-h2-heading'>Frontend Developer, UI / UX Designer and Freelancer</h3>

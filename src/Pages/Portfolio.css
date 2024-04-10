@@ -144,8 +144,12 @@
   .portfolio-footer p {
     display: flex;
     align-items: center;
-    color: blue;
     cursor: pointer;
+  }
+
+  .portfolio-footer p:hover {
+    font-weight: 100;
+    color: blue;
   }
   
   .portfolio-cards-container-back {
@@ -336,8 +340,12 @@
   .portfolio-footer p {
     display: flex;
     align-items: center;
-    color: blue;
     cursor: pointer;
+  }
+
+  .portfolio-footer p:hover {
+    font-weight: 100;
+    color: blue;
   }
   
   .portfolio-cards-container-back {
@@ -527,8 +535,13 @@
   .portfolio-footer p {
     display: flex;
     align-items: center;
-    color: blue;
+      font-weight: 100;
     cursor: pointer;
+  }
+
+  .portfolio-footer p:hover {
+    font-weight: 100;
+    color: blue;
   }
   
   .portfolio-cards-container-back {
