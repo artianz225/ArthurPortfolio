@@ -18,19 +18,21 @@ function Home() {
   return (
     <div className="home-container" id='home'>
         <div className="home-wrapper">
-        <div className="hero-container">
-        <img className='home-about-me-picture' src={myPicture} alt="" />
+        {/* <div className="hero-container">
         <span><TbFidgetSpinner className='myrotation'/></span>
-        <p>Will update my picture soon</p>
-        </div>
+        </div> */}
         <div className="hero-description-container">
           <p>Hello! I'm</p>
-          <h2>Arthur J<span className='john-rotation'><ImSpinner4 /></span>hn Philipps Epiz</h2>
+          <div className='name-wrapper-container'>
+            <h2>Arthur J<span className='john-rotation'><ImSpinner4 /></span>hn Philipps Epiz</h2>
+          </div>
           <p>I'm a</p>
-          <div className="dynamic-txts">
-            <p>Frontend Developer</p>
-            <p>UI / UX Desinger . . . .</p>
-            <p>Freelancer . . . . . . . . . .</p>
+          <div className="dynamic-txt-static-wrapper">
+            <div className="dynamic-txts-wrapper">
+              <p className='dynamic-p-one'>Frontend Developer</p>
+              <p className='dynamic-p-two'>UI / UX Desinger</p>
+              <p className='dynamic-p-three'>IT Professional</p>
+            </div>
           </div>
         </div>
 
