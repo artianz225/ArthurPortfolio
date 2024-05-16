@@ -5,7 +5,7 @@ import laShopeeImg from '../Assets/myecommerce2.png'
 import ducatiImg from '../Assets/myducati.jpg'
 import inventoryImg from '../Assets/myinventory.jpg'
 import weatherAppImg from '../Assets/myweatherapp.png'
-import countryFlagsImg from '../Assets/myflags2.jpeg'
+import artShopApp from '../Assets/artshopapp.jpg'
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { IoMdCloseCircle } from "react-icons/io";
 import Aos from 'aos';
@@ -26,12 +26,12 @@ function Portfolio() {
     },
     {
       id: 2,
-      tittle: "Lashopee",
-      languages: ["Vite", "CSS", "JavaScript"],
-      image: laShopeeImg,
-      projectLink: `https://artianz225.github.io/MP2-E-Commerce/`,
+      tittle: "ArtShopApp",
+      languages: ["React", "CSS", "JavaScript"],
+      image: artShopApp,
+      projectLink: `https://artianz225.github.io/ArtShopApp/`,
       details: "More Details",
-      aboutProject: "The Ecommerce Lashopee website is constructed solely using Vite, CSS, and JavaScript. I utilized a dummy JSON API for displaying various product details such as images, brands, models, ratings, descriptions, and more. Additionally, users can search for specific products by typing the brand name into the search box. Furthermore, users have the ability to add or remove products from the cart. Once an item is in the cart, users can also adjust the quantity within the cart section.",
+      aboutProject: "On Going Project - I update this project every week till it finish",
       isFlipped: false
     },
     {
@@ -56,21 +56,21 @@ function Portfolio() {
     },
     {
       id: 5,
+      tittle: "Lashopee",
+      languages: ["Vite", "CSS", "JavaScript"],
+      image: laShopeeImg,
+      projectLink: `https://artianz225.github.io/MP2-E-Commerce/`,
+      details: "More Details",
+      aboutProject: "The Ecommerce Lashopee website is constructed solely using Vite, CSS, and JavaScript. I utilized a dummy JSON API for displaying various product details such as images, brands, models, ratings, descriptions, and more. Additionally, users can search for specific products by typing the brand name into the search box. Furthermore, users have the ability to add or remove products from the cart. Once an item is in the cart, users can also adjust the quantity within the cart section.",
+      isFlipped: false
+    },
+    {
+      id: 6,
       tittle: "Weather App",
       languages: ["HTML", "CSS", "JavaScript"],
       image: weatherAppImg,
       projectLink: `https://artianz225.github.io/reactCalculator/`,
       details: "More Details",
-      aboutProject: "I will update this soon",
-      isFlipped: false
-    },
-    {
-      id: 6,
-      tittle: "Country Flags",
-      languages: ["HTML", "CSS", "JavaScript"],
-      image: countryFlagsImg,
-      projectLink: `https://artianz225.github.io/reactCalculator/`,
-      details: "More Details ",
       aboutProject: "I will update this soon",
       isFlipped: false
     },

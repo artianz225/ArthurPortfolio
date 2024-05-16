@@ -1,9 +1,20 @@
-.nav-container {
-  background: rgba(0, 0, 0, 1);
+.nav-container-on {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  width: 100%;
+  z-index: 999;
+  transition: .3s ease;
+}
+
+.nav-container-off {
+  background: rgba(0, 0, 0, 0);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999;
+  transition: .3s ease;
 }
 
 .nav-contents {
@@ -103,7 +114,10 @@
 }
 
 @media (max-width: 1325px) {
-  .nav-container {
+  .nav-container-on {
+    padding: 0 2rem;
+  }
+  .nav-container-off {
     padding: 0 2rem;
   }
   

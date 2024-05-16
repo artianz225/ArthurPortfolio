@@ -5,8 +5,9 @@
   position: relative;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 100dvh;
+  overflow-x: hidden;
   gap: 5em;
   color: white;
   top: 0;
@@ -210,7 +211,7 @@
     align-items: center;
     gap: 1.5rem;
     position: absolute;
-    bottom: 20px;
+    bottom: 70px;
     z-index: 10;
   }
 
@@ -220,12 +221,12 @@
     align-items: center;
     gap: .5em;
     font-size: 10px;
-    width: 130px;
-    height: 50px;
+    width: 150px;
+    height: 45px;
     margin-top: 40px; 
     letter-spacing: 3px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.80);
+    background-color: rgba(0, 0, 0, 0.4);
     border: 1px solid gray;
     border-radius: 50px;
     cursor: pointer;
@@ -234,7 +235,7 @@
   .get-resume-btn:hover {
     color: black;
     border: 1px solid black;
-    background-color: rgba(255, 217, 0, 0.50);
+    background-color: rgba(255, 255, 255, 0.2);
   }
 
   .social-links-btn-container {
@@ -290,7 +291,7 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: 100dvh;
     gap: 5em;
     color: white;
@@ -495,7 +496,7 @@
       align-items: center;
       gap: 1.5rem;
       position: absolute;
-      bottom: 20px;
+      bottom: 50px;
       z-index: 10;
     }
   
@@ -505,12 +506,12 @@
       align-items: center;
       gap: .5em;
       font-size: 10px;
-      width: 130px;
-      height: 50px;
+      width: 150px;
+      height: 45px;
       margin-top: 40px; 
       letter-spacing: 3px;
       color: white;
-      background-color: rgba(0, 0, 0, 0.80);
+      background-color: rgba(0, 0, 0, 0.4);
       border: 1px solid gray;
       border-radius: 50px;
       cursor: pointer;
@@ -519,7 +520,7 @@
     .get-resume-btn:hover {
       color: black;
       border: 1px solid black;
-      background-color: rgba(255, 217, 0, 0.50);
+      background-color: rgba(255, 255, 255, 0.2);
     }
   
     .social-links-btn-container {
@@ -763,7 +764,7 @@
       align-items: center;
       gap: 1.5rem;
       position: absolute;
-      bottom: 20px;
+      bottom: 40px;
       z-index: 10;
     }
   
@@ -773,12 +774,12 @@
       align-items: center;
       gap: .5em;
       font-size: 10px;
-      width: 130px;
-      height: 50px;
+      width: 135px;
+      height: 45px;
       margin-top: 40px; 
       letter-spacing: 3px;
       color: white;
-      background-color: rgba(0, 0, 0, 0.80);
+      background-color: rgba(0, 0, 0, 0.4);
       border: 1px solid gray;
       border-radius: 50px;
       cursor: pointer;
@@ -787,7 +788,7 @@
     .get-resume-btn:hover {
       color: black;
       border: 1px solid black;
-      background-color: rgba(255, 217, 0, 0.50);
+      background-color: rgba(255, 255, 255, 0.2);
     }
   
     .social-links-btn-container {

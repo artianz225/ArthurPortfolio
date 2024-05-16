@@ -18,9 +18,6 @@ function Home() {
   return (
     <div className="home-container" id='home'>
         <div className="home-wrapper">
-        {/* <div className="hero-container">
-        <span><TbFidgetSpinner className='myrotation'/></span>
-        </div> */}
         <div className="hero-description-container">
           <p>Hello! I'm</p>
           <div className='name-wrapper-container'>
