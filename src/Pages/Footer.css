@@ -59,7 +59,8 @@
   width: 100%;
   height: auto;
   color: white;
-  background-color: black;
+  background-color: #0C0B19;
+  box-shadow: 0px 0px 50px 0px tomato;
 }
 
 .footer-social-links-btn-container {
@@ -105,7 +106,8 @@
   width: 100%;
   height: auto;
   color: white;
-  background-color: black;
+  background-color: #0C0B19;
+  box-shadow: 0px 0px 50px 0px tomato;
 }
   
 .footer-container h4 {

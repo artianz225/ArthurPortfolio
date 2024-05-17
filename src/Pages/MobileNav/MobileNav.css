@@ -16,7 +16,7 @@
 .mobile-menu-container {
   width: 70vw;
   height: 100vh;
-  background-color: black;
+  background-color: #0C0B19;
   padding: 2rem;
 }
 
@@ -36,6 +36,16 @@
   list-style: none;
   margin-top: 100px;
   margin-left: 5px;
+}
+
+.mobile-menu li {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.mobile-nav-icon {
+  color: white;
 }
 
 @media (max-width: 1023px) {

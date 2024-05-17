@@ -1,5 +1,6 @@
 import React from 'react';
 import './MobileNav.css';
+import { FcHome, FcManager, FcMindMap, FcGallery, FcPhone } from "react-icons/fc";
 
 const MobileNav = ({ isOPen, toggleMenu }) => {
 
@@ -10,12 +11,12 @@ const MobileNav = ({ isOPen, toggleMenu }) => {
       
       <div className="mobile-menu-container">
           <ul>
-          <li><a href='#home' className="activeLink">Home</a></li>
-          <li><a href='#about' className="activeLink">About</a></li>
-          <li><a href="#skills" className="activeLink">Skills</a></li>
-          <li><a href='#portfolio' className="activeLink">Portfolio</a></li>
+          <li><FcHome /> <a href='#home' className="activeLink">Home</a></li>
+          <li><FcManager /> <a href='#about' className="activeLink">About</a></li>
+          <li><FcMindMap /> <a href="#skills" className="activeLink">Skills</a></li>
+          <li><FcGallery  /> <a href='#portfolio' className="activeLink">Portfolio</a></li>
           {/* <li><a href="#services" className="activeLink">Services</a></li> */}
-          <li><a href='#contact' className="activeLink">Contact</a></li>
+          <li><FcPhone /> <a href='#contact' className="activeLink">Contact</a></li>
           </ul>          
         </div>
 
