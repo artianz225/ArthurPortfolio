@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 637px) {
 
   .home-container {
@@ -250,7 +254,7 @@
     font-size: 16px;
     width: 35px;
     height: 35px;
-    border: none;
+    border: 1px solid black;
     color: black;
     border-radius: 50px;
     cursor: pointer;
@@ -261,27 +265,52 @@
     color: gold;
     background-color: black;
   }
-
+  
   .rgb-bg {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
+    width: 38px;
+    height: 38px;
+    background: repeating-conic-gradient(from var(--a), white, 
+    white 5%, transparent 5%, transparent 40%, white 50%);
+    animation: animated 6s linear infinite;
     border-radius: 50%;
-    background: linear-gradient(90deg, gray, gold, black, wheat, gold);
-    background-size: 1600% 1600%;
+  }
 
-    -webkit-animation: AnimationName 5s ease infinite;
-    -moz-animation: AnimationName 5s ease infinite;
-    animation: AnimationName 5s ease infinite;
-}
+  .rgb-bg::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: repeating-conic-gradient(from var(--a), gold 0%, 
+    gold 5%, transparent 5%, transparent 40%, gold 50%);
+    animation: animated 6s linear infinite;
+    animation-delay: -4.5s;
+    border-radius: 50%;
+  }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
+  .home-footer-container-icons-wrapper {
+    display: none;
+    position: relative;
+    z-index: 999;
+  }
+
+  @property --a {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+  }
+  
+  @keyframes animated {
+    0% {
+      --a: 0deg
+    }
+    100% {
+      --a: 360deg
+    }
+  }
 }
 
 @media only screen and (min-width: 637px) and (max-width: 1023px) {
@@ -527,7 +556,7 @@
       display: flex;
       gap: 1em;
     }
-    
+  
     .social-links-btn-container button {
       display: flex;
       justify-content: center;
@@ -535,7 +564,7 @@
       font-size: 16px;
       width: 35px;
       height: 35px;
-      border: none;
+      border: 1px solid black;
       color: black;
       border-radius: 50px;
       cursor: pointer;
@@ -546,27 +575,52 @@
       color: gold;
       background-color: black;
     }
-  
+    
     .rgb-bg {
       display: flex;
+      position: relative;
       align-items: center;
       justify-content: center;
-      width: 36px;
-      height: 36px;
+      width: 38px;
+      height: 38px;
+      background: repeating-conic-gradient(from var(--a), white, 
+      white 5%, transparent 5%, transparent 40%, white 50%);
+      animation: animated 6s linear infinite;
       border-radius: 50%;
-      background: linear-gradient(90deg, gray, gold, black, wheat, gold);
-      background-size: 1600% 1600%;
+    }
   
-      -webkit-animation: AnimationName 5s ease infinite;
-      -moz-animation: AnimationName 5s ease infinite;
-      animation: AnimationName 5s ease infinite;
-  }
+    .rgb-bg::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: repeating-conic-gradient(from var(--a), gold 0%, 
+      gold 5%, transparent 5%, transparent 40%, gold 50%);
+      animation: animated 6s linear infinite;
+      animation-delay: -4.5s;
+      border-radius: 50%;
+    }
   
-  @-webkit-keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
-  }
+    .home-footer-container-icons-wrapper {
+      display: none;
+      position: relative;
+      z-index: 999;
+    }
+  
+    @property --a {
+      syntax: '<angle>';
+      inherits: false;
+      initial-value: 0deg;
+    }
+    
+    @keyframes animated {
+      0% {
+        --a: 0deg
+      }
+      100% {
+        --a: 360deg
+      }
+    }
 }
 
 @media only screen and (min-width: 1023px) and (max-width: 8000px) {
@@ -804,44 +858,69 @@
       display: flex;
       gap: 1em;
     }
-    
-    .social-links-btn-container button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 16px;
-      width: 35px;
-      height: 35px;
-      border: none;
-      color: black;
-      border-radius: 50px;
-      cursor: pointer;
-    }
-    
-    .social-links-btn-container button:hover {
-      border: 1px solid gold;
-      color: gold;
-      background-color: black;
-    }
   
-    .rgb-bg {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      background: linear-gradient(90deg, gray, gold, black, wheat, gold);
-      background-size: 1600% 1600%;
-  
-      -webkit-animation: AnimationName 5s ease infinite;
-      -moz-animation: AnimationName 5s ease infinite;
-      animation: AnimationName 5s ease infinite;
+  .social-links-btn-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
   }
   
-  @-webkit-keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
+  .social-links-btn-container button:hover {
+    border: 1px solid gold;
+    color: gold;
+    background-color: black;
+  }
+  
+  .rgb-bg {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: repeating-conic-gradient(from var(--a), white, 
+    white 5%, transparent 5%, transparent 40%, white 50%);
+    animation: animated 6s linear infinite;
+    border-radius: 50%;
+  }
+
+  .rgb-bg::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: repeating-conic-gradient(from var(--a), gold 0%, 
+    gold 5%, transparent 5%, transparent 40%, gold 50%);
+    animation: animated 6s linear infinite;
+    animation-delay: -4.5s;
+    border-radius: 50%;
+  }
+
+  .home-footer-container-icons-wrapper {
+    display: none;
+    position: relative;
+    z-index: 999;
+  }
+
+  @property --a {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+  }
+  
+  @keyframes animated {
+    0% {
+      --a: 0deg
+    }
+    100% {
+      --a: 360deg
+    }
   }
 }

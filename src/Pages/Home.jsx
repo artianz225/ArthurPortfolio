@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './Home.css'
 import { CiSaveDown2 } from "react-icons/ci";
-import { FaFacebookF, FaGithub, FaLinkedinIn, FaSkype } from "react-icons/fa6";
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaFacebookMessenger  } from "react-icons/fa6";
 import { ImSpinner4 } from "react-icons/im";
 
 import Aos from 'aos';
@@ -28,19 +28,20 @@ function Home() {
         </div>
 
         <div className="home-footer-container">
-          <button className="get-resume-btn">Get Resume <CiSaveDown2 /></button>
+        {/* https://drive.google.com/file/d/1X-EHHk-Iaj-BUoBm6TpaZ8Cy22U1vOt8/view?usp=sharing */}
+          <a href="https://drive.google.com/file/d/1X-EHHk-Iaj-BUoBm6TpaZ8Cy22U1vOt8/view?usp=sharing"><button className="get-resume-btn">Get Resume <CiSaveDown2 /></button></a>
           <div className="social-links-btn-container">
             <div className="rgb-bg">
-              <button><FaFacebookF /></button>
+              <a href="https://www.facebook.com/arthur.epiz/"><button className='home-footer-container-icons-wrapper'><FaFacebookF /></button></a>
               </div>
             <div className="rgb-bg">
-              <button><FaGithub /></button>
+              <a href="https://github.com/artianz225"><button className='home-footer-container-icons-wrapper'><FaGithub /></button></a>
               </div>
             <div className="rgb-bg">
-              <button><FaLinkedinIn /></button>
+              <button className='home-footer-container-icons-wrapper'><FaLinkedinIn /></button>
               </div>
             <div className="rgb-bg">
-              <button><FaSkype /></button>
+              <a href="https://www.messenger.com/t/9984040275000684/"><button className='home-footer-container-icons-wrapper'><FaFacebookMessenger /></button></a>
               </div>
           </div>
         </div>
